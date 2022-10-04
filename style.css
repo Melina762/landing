@@ -1,0 +1,144 @@
+/* style.css */
+
+div{
+	margin: 0px;
+	border: px solid white;
+	border-radius: 0%;
+}
+
+
+body {
+
+  font-family:monospace;
+  margin: 0;
+  color: ##000000
+  font-size: 17px;
+  background-color:#AFC4D8 ;
+  }
+
+
+h1 { 
+ color: #3574BB;
+ font-size: 55px;
+ font-family:fantasy;
+ text-align:center;
+}
+
+  h2, h3 {
+  font-family: pacifico;
+  color : #444040
+}
+
+p {
+  color: #404042;
+  opacity: .9;
+  font-size: 30px;
+}
+
+p2{
+  color: #FFFFFF;
+  opacity: .9;
+  font-size: 10px;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+#banner {
+  background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('images/avion.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
+
+.banner p {
+  color: white;
+  font-size: 24px;
+}
+
+.button-blue {
+  background-color: #1A48E3;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+
+.button-blue:hover {
+  background-color: #0B396D;
+  color: skyblue;
+}
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+
+.card-white h3 {
+  margin-bottom: 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;S
+}
+
+.footer {
+  background: #404042;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.footer p {
+  color: white;
+}
+
+a {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: .3s;
+  font-family:monospace;
+  text-decoration: none;
+  padding: 15px 30px;
+  background-color: #0B396D;
+  border-radius: 10px;
+}
+a:hover {
+  color: lightblue;
+  padding: 20px 35px;
+}
+
+.destination {
+	display:  grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
